@@ -1,0 +1,22 @@
+Package: coova-chilli
+Version: 1.3.0+20141128-2
+Depends: libc, kmod-tun, librt
+Source: feeds/packages/net/coova-chilli
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Imre Kaloz <kaloz@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 223347
+Filename: coova-chilli_1.3.0+20141128-2_ar71xx.ipk
+Size: 224067
+MD5Sum: 08fe98d7116a58673099fdec5fdeebe8
+SHA256sum: e1a0b0e74c1a60c1c2779d221edf60905795d279d1dad433e672d71c26aee92f
+Description:  CoovaChilli is an open source access controller for wireless LAN
+ access points and is based on ChilliSpot. It is used for authenticating
+ users of a wireless (or wired) LAN. It supports web based login (UAM)
+ which is today's standard for public HotSpots and it supports Wireless
+ Protected Access (WPA) which is the standard of the future.
+ Authentication,	authorization and accounting (AAA) is handled by your
+ favorite radius server.
+
