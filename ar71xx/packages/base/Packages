@@ -237,11 +237,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 128831
+Installed-Size: 128827
 Filename: kmod-ath9k-common_3.18.44+2016-01-10-1_ar71xx.ipk
-Size: 126183
-MD5Sum: 8e8c48b647bb7afc8b5c601310c5b48e
-SHA256sum: 774f039c51873a23f4b86a59116202c4919f86ebf6b9ba666eac788b63701c14
+Size: 126164
+MD5Sum: 6db50641e68745c6a54ec42fe98f120d
+SHA256sum: 32e02042a9247f51849fc04c39327dd883613ef637d7451ffd912b3c5c6d0fa8
 Description:  Atheros 802.11n wireless devices (common code for ath9k and ath9k_htc)
 
 Package: kmod-ath9k
@@ -251,11 +251,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 56185
+Installed-Size: 56177
 Filename: kmod-ath9k_3.18.44+2016-01-10-1_ar71xx.ipk
-Size: 56764
-MD5Sum: 4ad471a4e53a07317f449aeda4656791
-SHA256sum: 6868d32b685bf4cf5d895a0af00fe4cb04d2bbf987d49584985430c3a79dc33a
+Size: 56777
+MD5Sum: 4c96dd878b65a2baa1bd60ba12a7461a
+SHA256sum: a28ccabe5102cf5be5647cdc688fc10726c210436824d69058236d7be1c04b5b
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11n AR5008 and AR9001 family of chipsets.
 
@@ -266,11 +266,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 12805
+Installed-Size: 12804
 Filename: kmod-ath_3.18.44+2016-01-10-1_ar71xx.ipk
-Size: 13368
-MD5Sum: c87d6ed783ddaba4746da4c5db2c298b
-SHA256sum: 36e66af50be435612d6fc36f2c087aebb4d1b53ebdaf705c8f1c5e2840b0290e
+Size: 13366
+MD5Sum: 972d114f141ad2cac29ddaa631f47622
+SHA256sum: c12671bf72249c797a38ae71b2180e3abd6d0c8d621e918eec6cbacb414f7dfb
 Description:  This module contains some common parts needed by Atheros Wireless drivers.
 
 Package: kmod-cfg80211
@@ -280,11 +280,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 128303
+Installed-Size: 128304
 Filename: kmod-cfg80211_3.18.44+2016-01-10-1_ar71xx.ipk
-Size: 128546
-MD5Sum: 83edfc088e9566f433212d141d20fb9a
-SHA256sum: 792cc2f94d3cb77850d6ff55fa225d50a53fcf34bf834c6a0d7c0d1f2973becf
+Size: 128571
+MD5Sum: 3aa38eb2198eaecab92a6b0679cac7be
+SHA256sum: 84cce6d2ab126f9dea45291ff015917244378704fe3bd7f055bfbbf3387598a3
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-crypto-arc4
@@ -323,11 +323,11 @@ Depends: kernel (=3.18.44-1-d302d6ca8da9d39a74f558b5b71bfe92)
 Source: package/kernel/gpio-button-hotplug
 Section: kernel
 Architecture: ar71xx
-Installed-Size: 4489
+Installed-Size: 4487
 Filename: kmod-gpio-button-hotplug_3.18.44-1_ar71xx.ipk
-Size: 5420
-MD5Sum: a64a2e27bb998c3a30ea5d8d3322107e
-SHA256sum: 44d22d8cd4096f060a5717de877a021b09392633eb2c03d2b9a68e0a268b7a6e
+Size: 5412
+MD5Sum: 3aa355e5629fd38ccd2f54a1d661c778
+SHA256sum: efff243be5b7c7dc1b787a9d3ad0ee12c49ef464f881a7ae6861a6fbdc47cd0c
 Description:  This is a replacement for the following in-kernel drivers:
  1) gpio_keys (KEYBOARD_GPIO)
  2) gpio_keys_polled (KEYBOARD_GPIO_POLLED)
@@ -419,11 +419,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 235747
+Installed-Size: 235746
 Filename: kmod-mac80211_3.18.44+2016-01-10-1_ar71xx.ipk
-Size: 234847
-MD5Sum: 418b05692a518bb28cccacffbaabd031
-SHA256sum: 84ad4728b9d14abb3d7c17f1d997e86e8d5a3f988350d2d2783d1f08749ac040
+Size: 234822
+MD5Sum: 678a86b19f5e6ad12913c4344d50faef
+SHA256sum: 05c64869077d061e8ac483fff69e664201561337dc0a99ef9778f470828b4dc7
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-nf-conntrack
@@ -890,6 +890,28 @@ MD5Sum: 8769335b0ffb252ea33031edc85a5db9
 SHA256sum: ba7295f02256326dc4523e963777c8e7c8e7915b6195884633a4ca2091e48f5d
 Description:  This package contains the hw watchdog script for the OM1P and OM2P device.
 
+Package: opkg
+Version: 9c97d5ecd795709c8584e972bfdf3aee3a5b846d-9
+Depends: libc
+Source: package/system/opkg
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: base
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: ar71xx
+Installed-Size: 58659
+Filename: opkg_9c97d5ecd795709c8584e972bfdf3aee3a5b846d-9_ar71xx.ipk
+Size: 59646
+MD5Sum: eae052bbbc71ab9859b1ba92b9157def
+SHA256sum: 0bea53eb4a4adeafd822fbff3b67ea1b51dbb0c7fe28affccae936e964236271
+Description:  Lightweight package management system
+ opkg is the opkg Package Management System, for handling
+ installation and removal of packages on a system. It can
+ recursively follow dependencies and download all packages
+ necessary to install a particular package.
+ 
+ opkg knows how to install both .ipk and .deb packages.
+
 Package: ppp-mod-pppoe
 Version: 2.4.7-6
 Depends: libc, kmod-pppoe
@@ -1063,11 +1085,11 @@ Depends: libc, om-watchdog, curl, uhttpd, unzip, wifimesh-coova-chilli, openvpn
 Source: package/network/utils/wifimesh
 Section: net
 Architecture: ar71xx
-Installed-Size: 28735
+Installed-Size: 28657
 Filename: wifimesh_1_ar71xx.ipk
-Size: 29683
-MD5Sum: ff0750e226a97ffb1c6f37b0f8502e81
-SHA256sum: ff89808a8cbe659b0b08d611ba570b5de2977b231756295e03a1a5b240e02b45
+Size: 29604
+MD5Sum: 1f975fb4ccbc67fa6ccea5583ec0814b
+SHA256sum: 6ebd40fb5cfbdeca1df96ff255fee6e2989149956fb52df67a2a46501bbf3d07
 Description:  Auto configuration, dashboard reporting and 802.11s meshing.
 
 Package: wpad-mini
