@@ -237,11 +237,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 128827
+Installed-Size: 128830
 Filename: kmod-ath9k-common_3.18.44+2016-01-10-1_ar71xx.ipk
-Size: 126164
-MD5Sum: 6db50641e68745c6a54ec42fe98f120d
-SHA256sum: 32e02042a9247f51849fc04c39327dd883613ef637d7451ffd912b3c5c6d0fa8
+Size: 126212
+MD5Sum: 1beec445b79c795f0296f7d6736c0fe8
+SHA256sum: 8d28c61ad199667c240ad2fa435f45bf1bc1571783c0b8e7cf585d402e6522ef
 Description:  Atheros 802.11n wireless devices (common code for ath9k and ath9k_htc)
 
 Package: kmod-ath9k
@@ -251,11 +251,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 56177
+Installed-Size: 56183
 Filename: kmod-ath9k_3.18.44+2016-01-10-1_ar71xx.ipk
-Size: 56777
-MD5Sum: 4c96dd878b65a2baa1bd60ba12a7461a
-SHA256sum: a28ccabe5102cf5be5647cdc688fc10726c210436824d69058236d7be1c04b5b
+Size: 56760
+MD5Sum: 533911c93a5fa982ccab22d5e14aaac3
+SHA256sum: 71150990b498fece9d1e4e5909e7b0146340614f9ca78460187a61f997f540a5
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11n AR5008 and AR9001 family of chipsets.
 
@@ -266,11 +266,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 12804
+Installed-Size: 12805
 Filename: kmod-ath_3.18.44+2016-01-10-1_ar71xx.ipk
-Size: 13366
-MD5Sum: 972d114f141ad2cac29ddaa631f47622
-SHA256sum: c12671bf72249c797a38ae71b2180e3abd6d0c8d621e918eec6cbacb414f7dfb
+Size: 13371
+MD5Sum: 739fa3c2d71e1af6eaff7db529a40e26
+SHA256sum: ff0830f8fe64c9fd57adcf5162c011fadf04fc34b8886478cb7423c1d057a460
 Description:  This module contains some common parts needed by Atheros Wireless drivers.
 
 Package: kmod-cfg80211
@@ -280,11 +280,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 128304
+Installed-Size: 128302
 Filename: kmod-cfg80211_3.18.44+2016-01-10-1_ar71xx.ipk
-Size: 128571
-MD5Sum: 3aa38eb2198eaecab92a6b0679cac7be
-SHA256sum: 84cce6d2ab126f9dea45291ff015917244378704fe3bd7f055bfbbf3387598a3
+Size: 128560
+MD5Sum: 0caeaefe4fb696d0f498da7485fd9b18
+SHA256sum: ad7dca12a971e92e39e29c1a2bc20d491e228a9004e1d174fa769c6b914b54fa
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-crypto-arc4
@@ -323,11 +323,11 @@ Depends: kernel (=3.18.44-1-d302d6ca8da9d39a74f558b5b71bfe92)
 Source: package/kernel/gpio-button-hotplug
 Section: kernel
 Architecture: ar71xx
-Installed-Size: 4487
+Installed-Size: 4485
 Filename: kmod-gpio-button-hotplug_3.18.44-1_ar71xx.ipk
-Size: 5412
-MD5Sum: 3aa355e5629fd38ccd2f54a1d661c778
-SHA256sum: efff243be5b7c7dc1b787a9d3ad0ee12c49ef464f881a7ae6861a6fbdc47cd0c
+Size: 5409
+MD5Sum: 09f493a869a196bfab5a28add1824690
+SHA256sum: b7846d06f612cde94d14a847fe59e4b73d501bbe909ebc66f4135cb2f1be771a
 Description:  This is a replacement for the following in-kernel drivers:
  1) gpio_keys (KEYBOARD_GPIO)
  2) gpio_keys_polled (KEYBOARD_GPIO_POLLED)
@@ -421,9 +421,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 235746
 Filename: kmod-mac80211_3.18.44+2016-01-10-1_ar71xx.ipk
-Size: 234822
-MD5Sum: 678a86b19f5e6ad12913c4344d50faef
-SHA256sum: 05c64869077d061e8ac483fff69e664201561337dc0a99ef9778f470828b4dc7
+Size: 234819
+MD5Sum: 15c862945ecdbf579c8a9e784e2a14bf
+SHA256sum: 0d0b7c33cf58502a4e85b646586be3ac6b8d80d792fdab5198a8e29a81b12857
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-nf-conntrack
@@ -1085,11 +1085,11 @@ Depends: libc, om-watchdog, curl, uhttpd, unzip, wifimesh-coova-chilli, openvpn
 Source: package/network/utils/wifimesh
 Section: net
 Architecture: ar71xx
-Installed-Size: 28657
+Installed-Size: 28644
 Filename: wifimesh_1_ar71xx.ipk
-Size: 29604
-MD5Sum: 1f975fb4ccbc67fa6ccea5583ec0814b
-SHA256sum: 6ebd40fb5cfbdeca1df96ff255fee6e2989149956fb52df67a2a46501bbf3d07
+Size: 29579
+MD5Sum: 0f68e408e45aeff16e494993fc6d1885
+SHA256sum: eb8dd9d466130e53943b1e78af27bc1f003d319bf79b5285c44a2221e4d02d8e
 Description:  Auto configuration, dashboard reporting and 802.11s meshing.
 
 Package: wpad-mini
