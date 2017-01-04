@@ -237,11 +237,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 128830
+Installed-Size: 128825
 Filename: kmod-ath9k-common_3.18.45+2016-01-10-1_ar71xx.ipk
-Size: 126193
-MD5Sum: 1a7e00392a06bf63709896fba9e54fd2
-SHA256sum: c27a01f68e4dac9c74ea98b243b21c6cd2f668d2fd6a4e0afb31c5d17134cec7
+Size: 126185
+MD5Sum: d0695d96cb3d9b83d4474f4ebfe0067d
+SHA256sum: 04f839c493a8020feb798a61163392ab7a0fece4fbed35631be0277064f2f7f9
 Description:  Atheros 802.11n wireless devices (common code for ath9k and ath9k_htc)
 
 Package: kmod-ath9k
@@ -253,9 +253,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 56182
 Filename: kmod-ath9k_3.18.45+2016-01-10-1_ar71xx.ipk
-Size: 56772
-MD5Sum: a6ba4bb1a455e97e08688811c1bbb015
-SHA256sum: 8edfbd6a266411da14961dadc05d7f4f45de4f0ba1aad6665ec99b8097d14024
+Size: 56774
+MD5Sum: 6196e35cafaea516561d9680442273af
+SHA256sum: 3adbcf5152da9a3c114cb8902de76f0ca1624c78129bf7766fe3986b7fed0fa3
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11n AR5008 and AR9001 family of chipsets.
 
@@ -266,11 +266,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 12804
+Installed-Size: 12803
 Filename: kmod-ath_3.18.45+2016-01-10-1_ar71xx.ipk
-Size: 13366
-MD5Sum: d95d9aa16a50618c5d69479ecb6a2c0b
-SHA256sum: a6b12332c37f2fac1b34091a52b04a21b0b38cdc075ad10e20c52298bb5243f9
+Size: 13364
+MD5Sum: 7e947662a4ec85418e2abbe4a91a33aa
+SHA256sum: 4f769aeb3308f7b5dca5921e9a5caf13b1eb1605cafedfe64ac9cf8cd821b5c6
 Description:  This module contains some common parts needed by Atheros Wireless drivers.
 
 Package: kmod-cfg80211
@@ -282,9 +282,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
 Installed-Size: 128302
 Filename: kmod-cfg80211_3.18.45+2016-01-10-1_ar71xx.ipk
-Size: 128533
-MD5Sum: cf5d1976300d8439753997981d44b658
-SHA256sum: f6cbcc28bf00e37ef659aa723832ff689f5bb8a5419c0cc4a970625451eae99d
+Size: 128547
+MD5Sum: a146fded2988aa27747dd2dd958f9aa3
+SHA256sum: 99c58ce8d62035e1e504420d04f48ae0ee3e7f26a8a2120d0e3c2dc941e39813
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-crypto-arc4
@@ -325,9 +325,9 @@ Section: kernel
 Architecture: ar71xx
 Installed-Size: 4486
 Filename: kmod-gpio-button-hotplug_3.18.45-1_ar71xx.ipk
-Size: 5412
-MD5Sum: 871c37327bd8e4083e88cfcfc04937da
-SHA256sum: 28112ee747d9c7179a1172f3a36ea18ed4467805a415e5ed8adfaf913741e2df
+Size: 5415
+MD5Sum: 8d4ec677524780fbb98a17eb9d903785
+SHA256sum: 7099c0cc87a5b3bdb9ff018b01cb309c21f3b5f5940349bb0d5fe754096de18a
 Description:  This is a replacement for the following in-kernel drivers:
  1) gpio_keys (KEYBOARD_GPIO)
  2) gpio_keys_polled (KEYBOARD_GPIO_POLLED)
@@ -419,11 +419,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 235747
+Installed-Size: 235748
 Filename: kmod-mac80211_3.18.45+2016-01-10-1_ar71xx.ipk
-Size: 234864
-MD5Sum: 53039f3e4d495ae8ee92b58a284f5c32
-SHA256sum: 74cb90af336e04f4769482f6d24b2ae47ea31a96d2ee9f4dbed6266c66525acf
+Size: 234827
+MD5Sum: 7d44b5fc030061a8f24e98e14ec00c35
+SHA256sum: 9412a6904feba76505aabacc5d301ab198a9d3d245555d5aa6aeace8a4aea37f
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-nf-conntrack
