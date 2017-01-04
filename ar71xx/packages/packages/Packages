@@ -7,11 +7,11 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: Imre Kaloz <kaloz@openwrt.org>
 Architecture: ar71xx
-Installed-Size: 223348
+Installed-Size: 223364
 Filename: coova-chilli_1.3.0+20141128-2_ar71xx.ipk
-Size: 224062
-MD5Sum: 81ec133cb8e5a60affc3b5c6e02a8362
-SHA256sum: 53e2b032842be2a65b9e600c71daf72a9717bc51aea3856f4eaf794793fa8327
+Size: 224086
+MD5Sum: 9f6559abd23dfe13f62d58c737360831
+SHA256sum: 61aa2a84a115344dab373436bb896b5a6da3804009aabe930830ecceec5a0360
 Description:  CoovaChilli is an open source access controller for wireless LAN
  access points and is based on ChilliSpot. It is used for authenticating
  users of a wireless (or wired) LAN. It supports web based login (UAM)
